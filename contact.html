@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="contact.css" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Tulpen+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Overlock+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
+     <style>
+       h1 {
+         font-family: 'Tulpen One', cursive;
+         font-size: 80px;
+       }
+
+     </style>
+  </head>
+
+
+  <header>
+    <div id="topvisu" class="header">
+      <a href="welcome.html"><h1>Rolline CIE ART
+      </h1></a>
+    </div>
+    <div>
+  </header>
+
+    <table>
+      <tbody>
+        <tr><td><a href="contact.html"><button class="contact">contact</button></a></td></tr>
+        <tr><td><a href="who.html"><button class="styled">who dis'?</button></a></td></tr>
+        <tr><td><a href="theories.html"><button class="styled">theories</button></a></td></tr>
+        <tr><td><a href="visuels.html"><button class="styled">visuels</button></a></td></tr>
+        <tr><td><a href="welcome.html"><button class="styled">welcome</button></a></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+
+<form id="contact" method="post" action="traitement_formulaire.php">
+<fieldset>
+  <legend>Oui dites moi tout..</legend>
+
+  <p><label for="nom">Nom :</br> </label>
+    <div class="champs"><input type="text" id="nom" name="nom" tabindex="1" /></p>
+</div>
+  <p><label for="email">Email :</br></label>
+    <div class="champs"><input type="text" id="email" name="email" tabindex="2" /></p>
+</div>
+  <p><label for="message">Message :</br></label>
+    <textarea id="message" name="message" tabindex="4" cols="40" rows="16"></textarea></p>
+</fieldset>
+
+
+  <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
+
+</form>
+</body>
+
+</html>

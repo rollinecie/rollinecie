@@ -1,0 +1,123 @@
+body {
+  box-sizing: border-box;
+}
+
+header{
+  min-width: 1800px;
+  max-height: 420px;
+  background-position: center;
+  font-family: arial, sans-serif;
+  z-index: 1;
+
+}
+
+
+.header{
+  text-transform: uppercase;
+  /**text-shadow: 5px 5px rgb(140, 173, 218);**/
+  color: rgb(140, 173, 218);
+  clear:both;
+  text-align: center;
+  /**border-style: solid;
+  border-width: 1px;
+  border-color: black;  **/
+  margin-left: 50px;
+  margin-right: 900px;
+  margin-bottom: 100px;
+  padding-top: 40px;
+}
+
+
+h1 {
+  color: rgb(140, 173, 218);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+footer{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+  font-family: 'Overlock SC',cursive, monospace;
+  font-size: 15px;
+}
+
+table {
+  margin-left: 30px;
+position: fixed;
+border-spacing: 15px;
+}
+
+
+td {
+  height: 40px;
+  color: rgb(154, 168, 218);
+/**border-bottom-style: solid;
+border-right-style: solid;
+border-radius: 15%;**/
+font-family: 'Overlock SC',cursive, monospace;
+font-size: 20px;
+padding: 5px;
+}
+
+button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+
+
+}
+.styled{
+  border: none;
+color: rgb(154, 168, 218);
+border-radius: 15%;
+background-color: white;
+opacity: 0.8;
+font-family: 'Overlock SC',cursive, monospace;
+font-size: 20px;
+padding: 15px;
+ }
+
+
+.contact{
+  border: 3px rgb(154, 168, 218) solid;
+  background-color: white;
+  opacity: 0.8;
+  font-family: 'Overlock SC',cursive, monospace;
+  color: rgb(154, 168, 218);
+  font-size: 20px;
+  padding: 15px;
+
+}
+
+fieldset{
+  border: none;
+  font-family: 'Overlock SC',cursive, monospace;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(154, 168, 218);
+  background-color: white;
+}
+textarea{
+  background-color: white;
+  border: 2px solid grey;
+}
+input
+{
+  background-color: white;
+  border: 2px solid grey;
+}
+.buttonenvoi{
+  color: rgb(154, 168, 218);
+  border: 0px;
+  background-color: white;
+  font-family: 'Overlock SC',cursive, monospace;
+  font-size: 20px;
+  padding: 15px;
+}
