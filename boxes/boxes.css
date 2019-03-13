@@ -35,11 +35,20 @@ h1 {
   z-index: 4;
 }
 
+h2{
+  font-family: 'Tulpen One', cursive;
+  color: rgb(140, 173, 218);
+  font-size: 60px;
+}
+
 footer{
+  font-family: 'Tulpen One', cursive;
+  color: rgb(140, 173, 218);
   height: 100px;
   width: 100%;
   text-align: center;
   padding-top: 80px;
+  padding-bottom: 80px;
   font-family: 'Overlock SC',cursive, monospace;
   font-size: 15px;
 }
