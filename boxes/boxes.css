@@ -4,34 +4,27 @@ body {
 
 header{
   background-color: white;
-  min-width: 1800px;
-  max-height: 420px;
-  background-position: center;
-  height: 300px;
   z-index: 2;
 }
 
 .header{
 position: fixed;
-min-width: 1800px;
+width: 100%;
 background-color: white;
 opacity:0.7;
-  clear:both;
   z-index: 3;
 }
 
 
 h1 {
-  position: relative;
-  left: 370px;
-  color: rgb(140, 173, 218);
+  font-family: 'Permanent Marker',cursive, monospace;
+  font-size: 50px;
   text-transform: uppercase;
-  clear:both;
-  font-family: arial, sans-serif;
+  position: relative;
+  color: rgb(140, 173, 218);
   text-decoration: underline;
   text-decoration-color: white;
   font-weight: bold;
-  padding-top: 40px;
   z-index: 4;
 }
 
