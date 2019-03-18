@@ -91,10 +91,8 @@ padding: 15px;
 
 .grid {
   display: grid;
-  grid-template-columns :1fr 2fr ;
+  grid-template-columns :0.5fr 1fr 2fr 0.5fr ;
   grid-template-rows: (9/1fr);
-  margin-left: 300px;
-  margin-right: 300px;
   grid-gap: 50px 20px;
 }
 
@@ -106,6 +104,12 @@ padding: 15px;
   color: black;
   border-radius: 0px;
   border: 15px white double;
+  min-width: 300px;
+}
+
+.x{
+  background-color: white;
+  background-image: none;
 }
 
 .g {

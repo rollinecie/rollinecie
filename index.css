@@ -61,10 +61,8 @@ button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-
-
-
 }
+
 .styled{
   border: none;
 color: rgb(154, 168, 218);
