@@ -87,12 +87,32 @@ padding: 15px;
 
 }
 
+legend{
+  padding-top: 15px;
+  font-family: 'Overlock SC',cursive, monospace;
+  font-size: 200px
+  text-transform: lowercase;
+  color: rgb(154, 168, 218)
+}
+
+.indic{
+  font-family: 'Tulpen One',cursive, monospace;
+font-size: 50px;}
+
 fieldset{
   border: none;
-  font-family: 'Overlock SC',cursive, monospace;
-  font-size: 20px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  background-color: white;
+}
+
+
+label{
+  border: none;
+  font-family: 'Overlock SC',cursive, monospace;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
   color: rgb(154, 168, 218);
   background-color: white;
 }
