@@ -42,6 +42,7 @@ table {
   margin-left: 30px;
 position: fixed;
 border-spacing: 15px;
+z-index: 1;
 }
 
 
@@ -89,15 +90,14 @@ padding: 15px;
 
 legend{
   padding-top: 15px;
-  font-family: 'Overlock SC',cursive, monospace;
-  font-size: 200px
+  font-family: 'Permanent Marker',cursive, monospace;
   text-transform: lowercase;
-  color: rgb(154, 168, 218)
+  color: rgb(140, 173, 218);
 }
 
 .indic{
-  font-family: 'Tulpen One',cursive, monospace;
-font-size: 50px;}
+  font-family: 'Permanent Marker',cursive, monospace;
+font-size: 30px;}
 
 fieldset{
   border: none;
@@ -109,27 +109,22 @@ fieldset{
 
 label{
   border: none;
-  font-family: 'Overlock SC',cursive, monospace;
-  font-size: 30px;
+  font-family: 'Permanent Marker',cursive, monospace;
+  font-size: 20px;
   text-align: center;
   padding-top: 10px;
-  color: rgb(154, 168, 218);
+  color: rgb(140, 173, 218);
   background-color: white;
+  opacity: 0.8;
 }
 textarea{
   background-color: white;
-  border: 2px solid grey;
+  border: 2px dotted grey;
 }
 input
-{
+{ text-align:center;
+  font-family:'Overlock SC',cursive, monospace;
+  color: rgb(154, 168, 218)
   background-color: white;
-  border: 2px solid grey;
-}
-.buttonenvoi{
-  color: rgb(154, 168, 218);
-  border: 0px;
-  background-color: white;
-  font-family: 'Overlock SC',cursive, monospace;
-  font-size: 20px;
-  padding: 15px;
+  border: 2px dotted grey;
 }

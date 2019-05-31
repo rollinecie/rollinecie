@@ -1,0 +1,116 @@
+body {
+  box-sizing: border-box;
+}
+
+header{
+  background-color: white;
+  z-index: 2;
+}
+
+.header{
+position: fixed;
+width: 100%;
+background-color: white;
+opacity:0.7;
+  z-index: 3;
+}
+
+
+h1 {
+  font-family: 'Permanent Marker',cursive, monospace;
+  font-size: 50px;
+  text-transform: uppercase;
+  position: relative;
+  color: rgb(140, 173, 218);
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bold;
+  z-index: 4;
+}
+
+h2{
+  font-family: 'Tulpen One', cursive;
+  color: rgb(140, 173, 218);
+  font-size: 60px;
+}
+
+footer{
+  font-family: 'Tulpen One', cursive;
+  color: rgb(140, 173, 218);
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: 'Overlock SC',cursive, monospace;
+  font-size: 15px;
+}
+
+
+table {
+  margin-left: 30px;
+position: fixed;
+border-spacing: 15px;
+z-index: 1;
+}
+
+
+td {
+  height: 40px;
+  color: rgb(154, 168, 218);
+/**border-bottom-style: solid;
+border-right-style: solid;
+border-radius: 15%;**/
+font-family: 'Overlock SC',cursive, monospace;
+font-size: 20px;
+padding: 5px;
+}
+
+
+button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+
+
+}
+.styled{
+  border: none;
+color: rgb(154, 168, 218);
+border-radius: 15%;
+background-color: white;
+opacity: 0.8;
+font-family: 'Overlock SC',cursive, monospace;
+font-size: 20px;
+padding: 15px;
+ }
+
+
+.contact{
+  border: 3px rgb(154, 168, 218) solid;
+  background-color: white;
+  opacity: 0.8;
+  font-family: 'Overlock SC',cursive, monospace;
+  color: rgb(154, 168, 218);
+  font-size: 20px;
+  padding: 15px;
+
+}
+
+
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(154, 168, 218);
+  font-size: 25px;
+}
+
+.row{
+  font-family: 'Overlock SC',cursive, monospace;
+
+}
+span{
+  font-family: 'Permanent Marker',cursive, monospace;
+
+}
