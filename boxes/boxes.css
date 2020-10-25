@@ -71,7 +71,7 @@ button {
     -moz-appearance: button;
     appearance: button;
 
-
+cursor: pointer;
 
 }
 .styled{
