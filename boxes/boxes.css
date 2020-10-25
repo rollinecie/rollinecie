@@ -64,7 +64,7 @@ border-radius: 15%;**/
 font-family: 'Overlock SC',cursive, monospace;
 font-size: 20px;
 padding: 5px;
-}
+cursor: pointer; }
 
 
 button {
