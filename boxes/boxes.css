@@ -63,8 +63,7 @@ border-right-style: solid;
 border-radius: 15%;**/
 font-family: 'Overlock SC',cursive, monospace;
 font-size: 20px;
-padding: 5px;
-cursor: pointer; }
+padding: 5px;}
 
 
 button {
@@ -84,7 +83,7 @@ opacity: 0.8;
 font-family: 'Overlock SC',cursive, monospace;
 font-size: 20px;
 padding: 15px;
- }
+cursor: pointer;}
 
 
 .contact{
@@ -95,7 +94,7 @@ padding: 15px;
   color: rgb(154, 168, 218);
   font-size: 20px;
   padding: 15px;
-
+  cursor: pointer;
 }
 .container{
   position: relative;

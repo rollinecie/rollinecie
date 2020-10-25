@@ -25,7 +25,7 @@ h1 {
   text-decoration: underline;
   text-decoration-color: white;
   font-weight: bold;
-  
+
   z-index: 4;
 }
 
@@ -74,7 +74,7 @@ opacity: 0.8;
 font-family: 'Overlock SC',cursive, monospace;
 font-size: 20px;
 padding: 15px;
- }
+cursor: pointer;}
 
 
 .contact{
@@ -85,4 +85,4 @@ padding: 15px;
   color: rgb(154, 168, 218);
   font-size: 20px;
   padding: 15px;
-}
+cursor: pointer;}
