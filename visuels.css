@@ -38,31 +38,12 @@ footer{
   font-size: 15px;
 }
 
-table {
-  padding-top: 0px;
-  margin-left: 30px;
-position: fixed;
-border-spacing: 15px;
-}
-
-
-td {
-  height: 40px;
-  color: rgb(154, 168, 218);
-/**border-bottom-style: solid;
-border-right-style: solid;
-border-radius: 15%;**/
-font-family: 'Overlock SC',cursive, monospace;
-font-size: 20px;
-padding: 5px;
-cursor: pointer;}
-
 
 button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-
+cursor: pointer;
 
 
 }
@@ -71,27 +52,31 @@ button {
 color: rgb(154, 168, 218);
 border-radius: 15%;
 background-color: white;
-opacity: 0.8;
+opacity: 1;
 font-family: 'Overlock SC',cursive, monospace;
 font-size: 20px;
 padding: 15px;
- }
-
+ cursor: pointer;
+}
+.styled:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(154, 168, 218);
+}
 
 .contact{
   border: 3px rgb(154, 168, 218) solid;
   background-color: white;
-  opacity: 0.8;
+  opacity: 1;
   font-family: 'Overlock SC',cursive, monospace;
   color: rgb(154, 168, 218);
   font-size: 20px;
   padding: 15px;
-
+cursor: pointer;
 }
 
 .grid {
   display: grid;
-  grid-template-columns :0.5fr 1fr 2fr 0.5fr ;
+  grid-template-columns :1fr 4fr 8fr 1fr ;
   grid-template-rows: (9/1fr);
   grid-gap: 50px 20px;
 }
@@ -104,12 +89,13 @@ padding: 15px;
   color: black;
   border-radius: 0px;
   border: 15px white double;
-  min-width: 300px;
+
 }
 
 .x{
   background-color: white;
   background-image: none;
+  min-width: 30px;
 }
 
 .g {
@@ -119,6 +105,7 @@ padding: 15px;
   border: none;
   height: 300px;
   background-size: cover;
+    min-width: 300px;
 }
 .h {
   background-image: url("https://i.pinimg.com/originals/37/a2/b3/37a2b35302a59f4f4ec7248b3afd8968.jpg");
@@ -127,6 +114,7 @@ padding: 15px;
   border: none;
   height: 300px;
   background-size: cover;
+    min-width: 300px;
 }
 .i {
   background-image: url("https://i.pinimg.com/originals/fb/69/0b/fb690b7012f0279ccc0f03e83b7c97bc.jpg");
@@ -135,6 +123,7 @@ padding: 15px;
   border: none;
   height: 300px;
   background-size: cover;
+    min-width: 300px;
 }
 
 .j {
@@ -144,6 +133,7 @@ padding: 15px;
   border: none;
   height: 300px;
   background-size: cover;
+    min-width: 300px;
 }
 
 .k {
@@ -153,6 +143,7 @@ padding: 15px;
   border: none;
   height: 300px;
   background-size: cover;
+    min-width: 300px;
 }
 
 .l {
@@ -162,6 +153,7 @@ padding: 15px;
   border: none;
   height: 300px;
   background-size: cover;
+    min-width: 300px;
 }
 
 .g1 {
@@ -171,6 +163,7 @@ padding: 15px;
   border: none;
   height: 300px;
   background-size: cover;
+    min-width: 300px;
 }
 .h1 {
   background-image: url("https://i.pinimg.com/originals/1e/1c/c3/1e1cc3d2708eb2c8dcd188737feedf7a.jpg");
@@ -179,6 +172,7 @@ padding: 15px;
   border: none;
   height: 300px;
   background-size: cover;
+    min-width: 300px;
 }
 .i1 {
   background-image: url("https://i.pinimg.com/originals/00/69/ac/0069ac0bd0de0fe68ba6081bc11ae493.png");
@@ -187,6 +181,7 @@ padding: 15px;
   border: none;
   height: 300px;
   background-size: cover;
+    min-width: 300px;
 }
 
 /**First GRID + Title**/
@@ -195,11 +190,12 @@ padding: 15px;
 align-items: center;
 justify-content: center;
   justify-content: center;
-  font-family: 'Permanent Marker', serif;
+  font-family: 'Overlock SC';
   font-size: 38px;
   background-color: white;
   height: 300px;
   color: rgb(140, 173, 218);
   text-align: center;
   text-decoration: underline;
-  text-decoration-color: white;}
+  text-decoration-color: white;
+}

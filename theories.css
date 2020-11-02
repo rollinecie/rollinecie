@@ -47,55 +47,37 @@ footer{
 }
 
 
-table {
-  margin-left: 30px;
-position: fixed;
-border-spacing: 15px;
-z-index: 1;
-}
-
-
-td {
-  height: 40px;
-  color: rgb(154, 168, 218);
-/**border-bottom-style: solid;
-border-right-style: solid;
-border-radius: 15%;**/
-font-family: 'Overlock SC',cursive, monospace;
-font-size: 20px;
-padding: 5px;
-}
-
-
 button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-
-
-
+cursor: pointer;
 }
+
 .styled{
   border: none;
 color: rgb(154, 168, 218);
 border-radius: 15%;
 background-color: white;
-opacity: 0.8;
+opacity: 1;
 font-family: 'Overlock SC',cursive, monospace;
 font-size: 20px;
 padding: 15px;
+ cursor: pointer;}
+ .styled:hover{
+   text-decoration: underline;
+   text-decoration-color: rgb(154, 168, 218);
  }
-
 
 .contact{
   border: 3px rgb(154, 168, 218) solid;
   background-color: white;
-  opacity: 0.8;
+  opacity: 1;
   font-family: 'Overlock SC',cursive, monospace;
   color: rgb(154, 168, 218);
   font-size: 20px;
   padding: 15px;
-
+cursor: pointer;
 }
 
 

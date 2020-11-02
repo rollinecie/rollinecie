@@ -38,25 +38,6 @@ footer{
   font-size: 15px;
 }
 
-table {
-  margin-top: 30px;
-  margin-left: 30px;
-position: fixed;
-border-spacing: 15px;
-z-index: 5;
-}
-
-
-td {
-  height: 40px;
-  color: rgb(154, 168, 218);
-/**border-bottom-style: solid;
-border-right-style: solid;
-border-radius: 15%;**/
-font-family: 'Overlock SC',cursive, monospace;
-font-size: 20px;
-padding: 5px;
-}
 
 
 button {
@@ -72,17 +53,20 @@ cursor: pointer;
 color: rgb(154, 168, 218);
 border-radius: 15%;
 background-color: white;
-opacity: 0.8;
+opacity: 1;
 font-family: 'Overlock SC',cursive, monospace;
 font-size: 20px;
 padding: 15px;
 }
 
-
+.styled:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(154, 168, 218);
+}
 .contact{
   border: 3px rgb(154, 168, 218) solid;
   background-color: white;
-  opacity: 0.8;
+  opacity: 1;
   font-family: 'Overlock SC',cursive, monospace;
   color: rgb(154, 168, 218);
   font-size: 20px;
@@ -94,9 +78,8 @@ background-image: url(https://i.pinimg.com/originals/63/b9/f6/63b9f693f8035b1fa6
 background-position:top;}**/
 
 .pst{
-background-image: url(https://i.pinimg.com/originals/cb/b0/ae/cbb0ae06aaf5e5fa1e987e19cfbc9094.jpg);
-background-position: top;
-position: fixed;
-top: 0;
-left: 0;
+background-image: url(https://i.pinimg.com/originals/85/c2/13/85c213b0775197ffa5a1eb172012f275.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
 }
