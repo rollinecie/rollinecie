@@ -98,6 +98,13 @@ right: 150px;
 padding-top: 30px;
 }
 
+.description{
+  font-family: 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+text-align: justify;
+  text-justify: inter-word;
+}
+
 .carousel {
     background: #fff;
   height: 600px;
