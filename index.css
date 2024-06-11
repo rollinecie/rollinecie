@@ -50,12 +50,13 @@ cursor: pointer;
 }
 .styled{
   border: none;
+
 color: rgb(154, 168, 218);
 border-radius: 15%;
 background-color: white;
 opacity: 1;
 font-family: 'Overlock SC',cursive, monospace;
-font-size: 20px;
+font-size: 30px;
 padding: 15px;
 }
 
@@ -69,7 +70,7 @@ padding: 15px;
   opacity: 1;
   font-family: 'Overlock SC',cursive, monospace;
   color: rgb(154, 168, 218);
-  font-size: 20px;
+  font-size: 30px;
   padding: 15px;
 cursor: pointer;}
 

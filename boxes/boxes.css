@@ -73,7 +73,7 @@ border-radius: 15%;
 background-color: white;
 opacity: 1;
 font-family: 'Overlock SC',cursive, monospace;
-font-size: 20px;
+font-size: 25px;
 padding: 15px;
 cursor: pointer;}
 
@@ -88,7 +88,7 @@ cursor: pointer;}
   opacity: 1;
   font-family: 'Overlock SC',cursive, monospace;
   color: rgb(154, 168, 218);
-  font-size: 20px;
+  font-size: 25px;
   padding: 15px;
   cursor: pointer;
 }
@@ -99,7 +99,7 @@ padding-top: 30px;
 }
 
 .description{
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Overlock SC', sans-serif;
     font-size: 13px;
 text-align: justify;
   text-justify: inter-word;

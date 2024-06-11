@@ -57,7 +57,7 @@ border-radius: 15%;
 background-color: white;
 opacity: 1;
 font-family: 'Overlock SC',cursive, monospace;
-font-size: 20px;
+font-size: 25px;
 padding: 15px;
  cursor: pointer;}
 
@@ -65,10 +65,23 @@ padding: 15px;
 .contact{
   border: 3px rgb(154, 168, 218) solid;
   background-color: white;
+text-align: center;
+  opacity: 1;
+  font-family: 'Tulpen One',cursive, monospace;
+  color: rgb(154, 168, 218);
+  font-size: 50px;
+  padding: 15px;
+cursor: pointer;
+}
+
+.contact1{
+  border: 3px rgb(154, 168, 218) solid;
+  background-color: white;
+text-align: center;
   opacity: 1;
   font-family: 'Overlock SC',cursive, monospace;
   color: rgb(154, 168, 218);
-  font-size: 20px;
+  font-size: 25px;
   padding: 15px;
 cursor: pointer;
 }
